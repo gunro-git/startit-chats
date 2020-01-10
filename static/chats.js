@@ -43,6 +43,7 @@ async function suutiZinju(){
 
 }
 
+
 let ievadesLauks = document.getElementById("zinja");
 ievadesLauks.addEventListener("keyup", function(event){
     if(event.keyCode === 13){
