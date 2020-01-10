@@ -8,7 +8,7 @@ app = Flask('app')
 @app.route('/')
 def index_page():
   return render_template("index.html")
-@app_route("/health")
+@app.route("/health")
 def health_check():
   return "ok"
 
