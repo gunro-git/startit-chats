@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{{ url_for('static', filename='favicon.ico') }}" rel="icon" type="image/x-icon" />
     <title>StartIT Chats</title>
-    <script src="{{ url_for('static', filename='chats.js') }}"></script>
+    
 
 </head>
-<body>
-    Sveiki no template!  
+<body onload="lasiChatu();" class="body">
+
+    {% block saturs %} 
+    {% endblock %}
+
+    <script src="{{ url_for('static', filename='chats.js') }}"></script>
 </body>
 </html>
