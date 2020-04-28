@@ -1,5 +1,6 @@
 
 const ATJAUNOT=5000;
+const VERSION="1.0";
 
 async function lasiChatu(){
 
@@ -76,4 +77,7 @@ function raadiChataRindas(dati) {
     newLI.appendChild(newDiv); 
     newDiv.appendChild(newContent); 
     return newLI;
+  }
+  function raadiInfo(){
+    alert(VERSION);
   }
