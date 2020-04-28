@@ -78,6 +78,6 @@ function raadiChataRindas(dati) {
     newDiv.appendChild(newContent); 
     return newLI;
   }
-function raadiInfo(){
+async function raadiInfo(){
     alert(VERSION);
 }
